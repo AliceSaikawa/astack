@@ -1,2 +1,2 @@
 # astack
-ちま専用のpstackフォーク
+AliceSaikawa専用のpstackフォーク
