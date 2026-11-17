@@ -7,6 +7,11 @@ import { fileURLToPath } from "url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
+const defaultTla2ToolsJar = resolve(root, ".tools/tla2tools.jar");
+if (!process.env.TLA2TOOLS && existsSync(defaultTla2ToolsJar)) {
+  process.env.TLA2TOOLS = defaultTla2ToolsJar;
+}
+
 /**
  * @param {string} label
  * @param {string} command
