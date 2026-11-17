@@ -1,6 +1,8 @@
-> **リモートについて:** このリポジトリ（astack）は、ちま個人の [pstack](https://github.com/cursor/plugins/tree/main/pstack) フォークです。アップストリームは [cursor/plugins](https://github.com/cursor/plugins) の `pstack/` ディレクトリです。
+> **リモートについて:** このリポジトリ（astack）は、[AliceSaikawa（斎川有栖）](https://github.com/AliceSaikawa) が管理する [pstack](https://github.com/cursor/plugins/tree/main/pstack) の個人フォークです。アップストリームは [cursor/plugins](https://github.com/cursor/plugins) の `pstack/` ディレクトリです。
 >
-> **上流の取り込み:** `git clone https://github.com/cursor/plugins.git` のあと `git subtree split --prefix=pstack -b pstack-extracted` で履歴を切り出し、本リポジトリで `git merge <remote>/pstack-extracted --allow-unrelated-histories`（または通常の `git merge` / `git pull`）でマージしてください。# pstack
+> **上流の取り込み:** `git clone https://github.com/cursor/plugins.git` のあと `git subtree split --prefix=pstack -b pstack-extracted` で履歴を切り出し、本リポジトリで `git merge <remote>/pstack-extracted --allow-unrelated-histories`（または通常の `git merge` / `git pull`）でマージしてください。
+
+# pstack
 
 i'm [poteto](https://x.com/poteto). i'm not a president or ceo, but i've worked with millions of lines of code at Meta, Netflix, and Cursor. i'm also on the react core team where i help build and maintain react compiler.
 
